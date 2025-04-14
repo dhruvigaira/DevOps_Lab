@@ -72,6 +72,7 @@ git push origin feature1
 ⁠ ```sh
 git add README.md
 git commit -m "Updated README before merging"
+<img width="628" alt="10" src="https://github.com/user-attachments/assets/a00e3755-241c-4282-a2f2-9dba729a9853" />
 
 
 git checkout main
