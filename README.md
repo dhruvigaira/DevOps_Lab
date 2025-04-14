@@ -37,7 +37,8 @@ git diff
 git add hello.txt
 git commit -m "v1"      
  ```
-![Project Screenshot](./images/5.png)
+![Project Screenshot](./image<img width="633" alt="5" src="https://github.com/user-attachments/assets/95a7346b-a0ec-426b-92a7-c12a12dd3dca" />
+s/5.png)
 
 ### version2:
 ```⁠ sh
