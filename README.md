@@ -30,3 +30,52 @@ git diff
  ⁠⁠ ```
 ![Project Screenshot](./images/4.png)
 
+## LAB-2 GIT COMMANDS
+### 1. Checking the logs
+### version1:
+```⁠ sh
+git add hello.txt
+git commit -m "v1"      
+ ```
+![Project Screenshot](./images/5.png)
+
+### version2:
+```⁠ sh
+git add hello.txt
+git commit -m "v2"      
+ ⁠```
+![Project Screenshot](./images/6.png)
+
+### version3:
+```⁠ sh
+git add hello.txt
+git commit -m "v3"      
+ ⁠```
+![Project Screenshot](./images/7.png)
+
+⁠ ```sh
+git log
+ ⁠```
+![Project Screenshot](./images/8.png)
+
+
+### 2. Creating branch and merging with Main
+```⁠ sh
+git branch feature1
+git add .
+git commit -m "feature commit 1"
+git push origin feature1
+ ⁠```
+![Project Screenshot](./images/9.png)
+
+### Merged with Main
+⁠ ```sh
+git add README.md
+git commit -m "Updated README before merging"
+
+
+git checkout main
+git merge feature1 -m "Merging feature1"
+ ⁠```
+![Project Screenshot](./images/10.png)
+
