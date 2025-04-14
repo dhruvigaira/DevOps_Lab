@@ -4,9 +4,9 @@
 ## LAB-1 GIT COMMANDS
 
 ### 1. Clone the repository:
-⁠ sh
+⁠ ```sh
 git clone https://github.com/shlokiii/devops_lab.git
- ⁠
+ ⁠⁠ ```
 ![Project Screenshot](./images/1.png)
 
 
