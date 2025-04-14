@@ -11,22 +11,22 @@ git clone https://github.com/shlokiii/devops_lab.git
 
 
 ### 2. Adding image:
-⁠ sh 
+⁠⁠ ``` sh 
 git add .
 git commit -m "my first commit with image"
 git push
- ⁠
+ ⁠⁠ ```
 ![Project Screenshot](./images/2.png)
 
 
 ### 3. Git status and Diff Commands:
-⁠ sh 
+⁠⁠ ``` sh 
 git staus
- ⁠
+ ⁠⁠ ```
 ![Project Screenshot](./images/3.png)
-
+⁠ ```
 ⁠ sh
 git diff
- ⁠
+ ⁠⁠ ```
 ![Project Screenshot](./images/4.png)
 
