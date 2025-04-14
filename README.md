@@ -79,4 +79,30 @@ git checkout main
 git merge feature1 -m "Merging feature1"
  ⁠```
 ![Project Screenshot](./images/10.png)
+## LAB-3 SUBVERSION
+### Installation of Subversion (SVN) using Homebrew:
+⁠  sh
+brew install subversion
+ ⁠
+![Project Screenshot](./images/image11.png)
 
+### Creating repo:
+⁠ sh
+mkdir -p ~/svn-repos/myrepo
+svnadmin create ~/svn-repos/myrepo
+ ⁠
+
+### Configure svnserve:
+⁠ sh
+nano ~/svn-repos/myrepo/conf/svnserve.conf
+ ⁠
+
+### Start svnserve:
+⁠ sh
+svnserve -d -r ~/svn-repos
+ ⁠
+### setting up password:
+![Project Screenshot](./images/image12.png)
+
+### starting server and verifying:
+![Project Screenshot](./images/image13.png)
