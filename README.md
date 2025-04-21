@@ -82,7 +82,7 @@ git merge feature1 -m "Merging feature1"
 
 
 
-## LAB-3 SUBVERSION
+##  LAB-3 SUBVERSION
 ### Installation of Subversion (SVN) using Homebrew:
 ⁠  sh
 brew install subversion
